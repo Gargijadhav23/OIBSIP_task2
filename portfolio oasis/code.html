@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gargi Jadhav | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top left, #e9f7ff, #f9f9f9);
+      color: #2d3436;
+    }
+
+    header {
+      background-color: #1b1b2f;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00cec9;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      background: #ffffffb0;
+      border-radius: 16px;
+      margin-top: 2rem;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s;
+    }
+
+    .section:hover {
+      transform: translateY(-5px);
+    }
+
+    .hero {
+      text-align: center;
+      background: linear-gradient(135deg, #d3ffe8, #b0f4ff);
+      padding: 6rem 2rem;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .hero h2 {
+      font-size: 2.7rem;
+      margin-bottom: 1rem;
+      color: #1b1b2f;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      background-color: #00cec9;
+      color: white;
+      padding: 0.7rem 1.4rem;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #019e9b;
+    }
+
+    .project {
+      background: linear-gradient(145deg, #e0f7fa, #ffffff);
+      border-left: 4px solid #00cec9;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.04);
+    }
+
+    .project h3 {
+      margin-bottom: 0.5rem;
+      color: #0984e3;
+    }
+
+    footer {
+      background: #1b1b2f;
+      color: white;
+      text-align: center;
+      padding: 1.2rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gargi Jadhav</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Hi, I'm Gargi 👩‍💻</h2>
+    <p>A creative developer passionate about building impactful web and IoT solutions.</p>
+    <a href="#contact" class="btn">Get in Touch</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I'm currently developing full-stack web apps and integrating them with smart IoT devices. My expertise lies in crafting responsive websites and ensuring seamless hardware-software interaction.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>🌿 Environmental Allergen Detection</h3>
+      <p>A smart IoT-based system with sensors that detect pollen and dust, paired with a web interface and mobile app to notify users in real-time.</p>
+    </div>
+    <div class="project">
+      <h3>⏱ Stopwatch Web App</h3>
+      <p>Clean, minimal stopwatch interface with lap and reset features using JavaScript and CSS transitions.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:gargij2311@gmail.com">gargij2311@gmail.com</a></p>
+    <p>Let's collaborate or discuss your next project!</p>
+    <a href="#" class="btn">Download Resume</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gargi Jadhav | Designed with care and creativity</p>
+  </footer>
+</body>
+</html>
